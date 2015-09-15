@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuienEsElMejor", "QuienEsElMejor\QuienEsElMejor.csproj", "{A20E19C7-92F4-4B02-8451-348A531500CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Librerias", "Librerias", "{3E886343-8313-4513-A200-67BE5C9F2689}"
+	ProjectSection(SolutionItems) = preProject
+		Librerias\Iesi.Collections.dll = Librerias\Iesi.Collections.dll
+		Librerias\NHibernate.dll = Librerias\NHibernate.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{10B5A970-DD5E-4825-A265-4FD0B15D42DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcQuienEsElMejor", "MvcQuienEsElMejor\MvcQuienEsElMejor.csproj", "{0EE872CB-F67C-4171-AD1B-5F019B83080E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A20E19C7-92F4-4B02-8451-348A531500CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20E19C7-92F4-4B02-8451-348A531500CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20E19C7-92F4-4B02-8451-348A531500CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20E19C7-92F4-4B02-8451-348A531500CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B5A970-DD5E-4825-A265-4FD0B15D42DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B5A970-DD5E-4825-A265-4FD0B15D42DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B5A970-DD5E-4825-A265-4FD0B15D42DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B5A970-DD5E-4825-A265-4FD0B15D42DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE872CB-F67C-4171-AD1B-5F019B83080E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE872CB-F67C-4171-AD1B-5F019B83080E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE872CB-F67C-4171-AD1B-5F019B83080E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE872CB-F67C-4171-AD1B-5F019B83080E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

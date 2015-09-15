@@ -1,0 +1,8 @@
+D:\WORKSPACES\DSWARRIOR\QuienEsMejor\solucion-quien-es-mejor\QuienEsElMejor\QuienEsElMejor\bin\QuienEsElMejor.dll.config
+D:\WORKSPACES\DSWARRIOR\QuienEsMejor\solucion-quien-es-mejor\QuienEsElMejor\QuienEsElMejor\bin\QuienEsElMejor.dll
+D:\WORKSPACES\DSWARRIOR\QuienEsMejor\solucion-quien-es-mejor\QuienEsElMejor\QuienEsElMejor\bin\QuienEsElMejor.pdb
+D:\WORKSPACES\DSWARRIOR\QuienEsMejor\solucion-quien-es-mejor\QuienEsElMejor\QuienEsElMejor\bin\Iesi.Collections.dll
+D:\WORKSPACES\DSWARRIOR\QuienEsMejor\solucion-quien-es-mejor\QuienEsElMejor\QuienEsElMejor\bin\NHibernate.dll
+D:\WORKSPACES\DSWARRIOR\QuienEsMejor\solucion-quien-es-mejor\QuienEsElMejor\QuienEsElMejor\obj\Debug\QuienEsElMejor.csprojResolveAssemblyReference.cache
+D:\WORKSPACES\DSWARRIOR\QuienEsMejor\solucion-quien-es-mejor\QuienEsElMejor\QuienEsElMejor\obj\Debug\QuienEsElMejor.dll
+D:\WORKSPACES\DSWARRIOR\QuienEsMejor\solucion-quien-es-mejor\QuienEsElMejor\QuienEsElMejor\obj\Debug\QuienEsElMejor.pdb

@@ -1,0 +1,68 @@
+﻿<!doctype html>
+<html class="no-js" lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>@ViewBag.Title - ¿Quién es el mejor?</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.tmp) styles/main.css -->
+    @Styles.Render("~/Content/css")
+    <!-- endbuild -->
+</head>
+<body>
+
+    <!-- Begin: Header -->
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">@ViewBag.Title</a></div>
+            </div>
+        </nav>
+        <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only"><i class="mdi-navigation-menu"></i></a></div>
+        <ul id="nav-mobile" class="side-nav fixed" style="width: 240px;">
+            <li class="logo">
+                <a id="logo-container" href="http://materializecss.com/" class="brand-logo">Logo ¿Quién es el mejor?</a>
+            </li>
+            <li class="bold"><a href="@Url.Action("Index", "Home")" class="waves-effect waves-teal">Inicio</a></li>
+            <li class="bold"><a href="@Url.Action("Index", "torneos")" class="waves-effect waves-teal">Torneos</a></li>
+            <li class="bold"><a href="@Url.Action("Index", "contendores")" class="waves-effect waves-teal">Contendores</a></li>
+            <li class="bold"><a href="@Url.Action("Index", "usuarios")" class="waves-effect waves-teal">Usuarios</a></li>
+            <li class="bold">Usuario anónimo</li>
+            <li class="bold"><a href="@Url.Action("Index", "Home")" class="waves-effect waves-teal">Iniciar sesión</a></li>
+        </ul>
+    </header>
+    <!-- End: Header -->
+    <!-- Begin: Main -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    @RenderBody()
+                </div>
+            </div>
+        
+        </div> <!-- End Container -->
+    </main>
+    <!-- End: Main -->
+    <!-- Begin: Footer -->
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    © 2015 DSWarrior, todos los izquierdos reservados. <a class="grey-text text-lighten-4 right" href="https://github.com/DSWarrior/QuienEsMejor" target="_blank">Repositorio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End: Footer -->
+
+    <!-- build:js scripts/main.js -->
+    @Scripts.Render("~/bundles/script")
+    <!-- endbuild -->
+        
+    </body>
+</html>
